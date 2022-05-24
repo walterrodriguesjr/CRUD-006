@@ -22,7 +22,12 @@ site dos criadores da aula, muitas aulas boas disponíveis - https://dcodemania.
         Foi inserido também o link de CSS e o Script da biblioteca 'datatables.net' (semelhante ao JSgrid)
             Foi inserido também o script da biblioteca 'sweetalert2'
                 inserido também o link CSS da biblioteca de icons do bootstrap 5 
-                    
+                    foi inserida a codificação de HTML da tela (copiada do site dcodemania)
+
+8-configurado o controller 'EmployeeController' para returnar a index, sua tela principal 
+
+19:25
+
 
 
 
