@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=z8cCuWz_fYA&t=757s 
+
+site dos criadores da aula, muitas aulas boas disponíveis - https://dcodemania.com/
+
+1-composer create-project laravel/laravel:^8.0 example-app 
+
+2-criada a model Employee junto com a migration 
+     php artisan make:model Employee -m
+    
+3-criado o controller EmployeeController 
+     php artisan make:controller EmployeeController 
+
+4-configurada e populada a migrate create_employees 
+    rodada a migrate em seguida 
+
+5-configurado a model Employee. Inserido o protected $fillable com as colunas acessíveis 
+
+6-em routes, foi criada uma nova rota '/', já com a class EmployeeController e invocando o método index()
+
+7-criada a view 'index' e nela inserida os linkls via CDN de bootstrap 5 (css e script)
+    Foi também inserido o CDN de jquery 3.0 minificado (sempre antes do JS do bootstrap)
+        Foi inserido também o link de CSS e o Script da biblioteca 'datatables.net' (semelhante ao JSgrid)
+            Foi inserido também o script da biblioteca 'sweetalert2'
+                inserido também o link CSS da biblioteca de icons do bootstrap 5 
+                    
+
+
+
+
