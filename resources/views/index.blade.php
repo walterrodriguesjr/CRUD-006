@@ -154,7 +154,23 @@
 
         <script>
             /* requisições utilizando AJAX */
-            
+            $("#add_employee_form").submit(function(){
+                e.preventDefault();
+                const fd = new FormData(this);
+                $("#add_employee_btn").text('Adding...');
+                $.ajax({
+                    type: "post",
+                    url: '{{route('store')}}',
+                    data: fd,
+                    cache: false,
+                    processData: false,
+                    contentType: false,
+                    dataType: 'json',
+                    success: function (res) {
+                        console.log(res);
+                    }
+                });
+            });
         </script>
 
     </body>
